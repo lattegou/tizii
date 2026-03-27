@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>tizii (arm64)</title>
+    <link>https://lattegou.github.io/tizii/appcast-arm64.xml</link>
+    <description>tizii macOS arm64 更新源</description>
+    <language>zh-CN</language>
+    <item>
+      <title>v1.9.1</title>
+      <pubDate>Fri, 27 Mar 2026 12:14:38 GMT</pubDate>
+      <sparkle:version>1.9.1</sparkle:version>
+      <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>v1.9.1</h3><p>Bug fixes and improvements.</p>]]></description>
+      <enclosure
+        url="https://github.com/lattegou/tizii/releases/download/v1.9.1/tizii-macos-1.9.1-arm64.zip"
+        length="62258021"
+        type="application/octet-stream"
+        sparkle:edSignature="Kp+RcsUx3Wk4o1quzMWiCKX+g8yzevgmk6FuyRSaziIceVgh5rg+42+h+6d1q4zQQuY2y/7m8+WCaiFFZPy4BA=="
+      />
+    </item>
+  </channel>
+</rss>
