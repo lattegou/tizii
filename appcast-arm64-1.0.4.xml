@@ -9,16 +9,16 @@
     <language>zh-CN</language>
     <item>
       <title>v1.0.4</title>
-      <pubDate>Sat, 28 Mar 2026 15:47:07 GMT</pubDate>
+      <pubDate>Sat, 28 Mar 2026 16:15:41 GMT</pubDate>
       <sparkle:version>1.0.4</sparkle:version>
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>v1.0.4</h3><p>Bug fixes and improvements.</p>]]></description>
       <enclosure
         url="https://github.com/lattegou/tizii/releases/download/v1.0.4/tizii-macos-1.0.4-arm64.zip"
-        length="62494851"
+        length="62490109"
         type="application/octet-stream"
-        sparkle:edSignature="lOOMkrtLbixKAdKJI8PNwFOWsFPCk63JPdbWT50uAb/B0uBMiLWEKAizZrwwUu0rcob39jCQGxCY2caM6e+WBg=="
+        sparkle:edSignature="daZoPdwHzCljxv01Yl8sVqqmX/Z93aSNs59qnRxL3ACXh+d/watevxOyz3GlU5LMOkn/vuJRkf02doP41LdwAw=="
       />
     </item>
   </channel>
