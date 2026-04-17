@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F60CB522F4E8500006FA1B7 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 5F60CB512F4E8500006FA1B7 /* Sparkle */; };
+		5F60CB622F4E8700006FA1B7 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 5F60CB612F4E8700006FA1B7 /* OrderedCollections */; };
+		5F60CB642F4E8700006FA1B7 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 5F60CB632F4E8700006FA1B7 /* Yams */; };
+		5F60CB722F4E8900006FA1B7 /* Aptabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5F60CB712F4E8900006FA1B7 /* Aptabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F60CB202F4E83E8006FA1B7 /* airtiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airtiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5F60CB222F4E83E8006FA1B7 /* swift-ui */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "swift-ui";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F60CB1D2F4E83E8006FA1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F60CB622F4E8700006FA1B7 /* OrderedCollections in Frameworks */,
+				5F60CB522F4E8500006FA1B7 /* Sparkle in Frameworks */,
+				5F60CB642F4E8700006FA1B7 /* Yams in Frameworks */,
+				5F60CB722F4E8900006FA1B7 /* Aptabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F60CB172F4E83E8006FA1B7 = {
+			isa = PBXGroup;
+			children = (
+				5F60CB222F4E83E8006FA1B7 /* swift-ui */,
+				5F60CB212F4E83E8006FA1B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F60CB212F4E83E8006FA1B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F60CB202F4E83E8006FA1B7 /* airtiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F60CB1F2F4E83E8006FA1B7 /* swift-ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F60CB2B2F4E83E9006FA1B7 /* Build configuration list for PBXNativeTarget "swift-ui" */;
+			buildPhases = (
+				5F60CB1C2F4E83E8006FA1B7 /* Sources */,
+				5F60CB1D2F4E83E8006FA1B7 /* Frameworks */,
+				5F60CB1E2F4E83E8006FA1B7 /* Resources */,
+				5F60CB402F4E84A0006FA1B7 /* Copy Resources */,
+				5F60CB602F4E8600006FA1B7 /* Inject Sparkle Config */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5F60CB222F4E83E8006FA1B7 /* swift-ui */,
+			);
+			name = "swift-ui";
+			packageProductDependencies = (
+				5F60CB612F4E8700006FA1B7 /* OrderedCollections */,
+				5F60CB512F4E8500006FA1B7 /* Sparkle */,
+				5F60CB632F4E8700006FA1B7 /* Yams */,
+				5F60CB712F4E8900006FA1B7 /* Aptabase */,
+			);
+			productName = airtiz;
+			productReference = 5F60CB202F4E83E8006FA1B7 /* airtiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F60CB182F4E83E8006FA1B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					5F60CB1F2F4E83E8006FA1B7 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 5F60CB1B2F4E83E8006FA1B7 /* Build configuration list for PBXProject "swift-ui" */;
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 5F60CB172F4E83E8006FA1B7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5F60CB652F4E8700006FA1B7 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				5F60CB502F4E8500006FA1B7 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				5F60CB662F4E8700006FA1B7 /* XCRemoteSwiftPackageReference "Yams" */,
+				5F60CB702F4E8900006FA1B7 /* XCRemoteSwiftPackageReference "aptabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5F60CB212F4E83E8006FA1B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F60CB1F2F4E83E8006FA1B7 /* swift-ui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F60CB1E2F4E83E8006FA1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F60CB402F4E84A0006FA1B7 /* Copy Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -euo pipefail\n\nAPP_BUNDLE=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\nRESOURCES_DIR=\"$APP_BUNDLE/Contents/Resources\"\nPROJECT_BASE=\"${PROJECT_DIR}/../..\"\n\n# Copy sidecar binaries (mihomo core)\nSIDECAR_SRC=\"$PROJECT_BASE/extra/sidecar\"\nif [ -d \"$SIDECAR_SRC\" ] && [ -n \"$(ls -A \"$SIDECAR_SRC\" 2>/dev/null)\" ]; then\n    mkdir -p \"$RESOURCES_DIR/sidecar\"\n    cp -R \"$SIDECAR_SRC/\"* \"$RESOURCES_DIR/sidecar/\"\n    chmod +x \"$RESOURCES_DIR/sidecar/\"* 2>/dev/null || true\n    for f in \"$RESOURCES_DIR/sidecar/\"*; do codesign --force --sign - \"$f\" 2>/dev/null || true; done\n    echo \"Copied and re-signed sidecar binaries\"\nfi\n\n# Copy resource files (mmdb, geosite, helper, etc.)\nFILES_SRC=\"$PROJECT_BASE/extra/files\"\nif [ -d \"$FILES_SRC\" ] && [ -n \"$(ls -A \"$FILES_SRC\" 2>/dev/null)\" ]; then\n    mkdir -p \"$RESOURCES_DIR/files\"\n    cp -R \"$FILES_SRC/\"* \"$RESOURCES_DIR/files/\"\n    echo \"Copied resource files\"\nfi\n";
+		};
+		5F60CB602F4E8600006FA1B7 /* Inject Sparkle Config */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Inject Sparkle Config";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "PLIST=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\nAPP_ARCH_VALUE=\"${APP_ARCH:-}\"\n\nif [ -z \"$APP_ARCH_VALUE\" ]; then\n  case \"${CURRENT_ARCH:-}\" in\n    arm64|arm64e)\n      APP_ARCH_VALUE=\"arm64\"\n      ;;\n    x86_64|amd64)\n      APP_ARCH_VALUE=\"x64\"\n      ;;\n  esac\nfi\n\nif [ -z \"$APP_ARCH_VALUE\" ]; then\n  EXECUTABLE=\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n  if [ -f \"$EXECUTABLE\" ] && file \"$EXECUTABLE\" | grep -q \"arm64\"; then\n    APP_ARCH_VALUE=\"arm64\"\n  else\n    APP_ARCH_VALUE=\"x64\"\n  fi\nfi\n\nif [ \"$APP_ARCH_VALUE\" = \"arm64\" ]; then\n  FEED_URL=\"https://lattegou.github.io/airtiz/appcast-arm64.xml\"\nelse\n  FEED_URL=\"https://lattegou.github.io/airtiz/appcast-x64.xml\"\nfi\n\necho \"[Sparkle Config] APP_ARCH=${APP_ARCH:-<unset>} CURRENT_ARCH=${CURRENT_ARCH:-<unset>} RESOLVED_APP_ARCH=$APP_ARCH_VALUE FEED_URL=$FEED_URL\"\n\n/usr/libexec/PlistBuddy -c \"Delete :SUFeedURL\" \"$PLIST\" 2>/dev/null || true\n/usr/libexec/PlistBuddy -c \"Add :SUFeedURL string $FEED_URL\" \"$PLIST\"\n\n/usr/libexec/PlistBuddy -c \"Delete :SUPublicEDKey\" \"$PLIST\" 2>/dev/null || true\n/usr/libexec/PlistBuddy -c \"Add :SUPublicEDKey string byEeL8beGb8MMBkL3Yw9EFh9+VJdJ+SDQtIBxHXNvkg=\" \"$PLIST\"\n\n/usr/libexec/PlistBuddy -c \"Delete :SUEnableAutomaticChecks\" \"$PLIST\" 2>/dev/null || true\n/usr/libexec/PlistBuddy -c \"Add :SUEnableAutomaticChecks bool true\" \"$PLIST\"\n\n/usr/libexec/PlistBuddy -c \"Delete :CFBundleAllowMixedLocalizations\" \"$PLIST\" 2>/dev/null || true\n/usr/libexec/PlistBuddy -c \"Add :CFBundleAllowMixedLocalizations bool true\" \"$PLIST\"\n\n/usr/libexec/PlistBuddy -c \"Delete :CFBundleDevelopmentRegion\" \"$PLIST\" 2>/dev/null || true\n/usr/libexec/PlistBuddy -c \"Add :CFBundleDevelopmentRegion string zh-Hans\" \"$PLIST\"\n\n/usr/libexec/PlistBuddy -c \"Delete :CFBundleLocalizations\" \"$PLIST\" 2>/dev/null || true\n/usr/libexec/PlistBuddy -c \"Add :CFBundleLocalizations array\" \"$PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :CFBundleLocalizations:0 string en\" \"$PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :CFBundleLocalizations:1 string zh-Hans\" \"$PLIST\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F60CB1C2F4E83E8006FA1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F60CB292F4E83E9006FA1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F60CB2A2F4E83E9006FA1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5F60CB2C2F4E83E9006FA1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-ui/swift-ui.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AirTiz;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airtiz.app;
+				PRODUCT_NAME = airtiz;
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5F60CB2D2F4E83E9006FA1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-ui/swift-ui.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AirTiz;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.9.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.airtiz.app;
+				PRODUCT_NAME = airtiz;
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F60CB1B2F4E83E8006FA1B7 /* Build configuration list for PBXProject "swift-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F60CB292F4E83E9006FA1B7 /* Debug */,
+				5F60CB2A2F4E83E9006FA1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F60CB2B2F4E83E9006FA1B7 /* Build configuration list for PBXNativeTarget "swift-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F60CB2C2F4E83E9006FA1B7 /* Debug */,
+				5F60CB2D2F4E83E9006FA1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F60CB502F4E8500006FA1B7 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		5F60CB652F4E8700006FA1B7 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		5F60CB662F4E8700006FA1B7 /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		5F60CB702F4E8900006FA1B7 /* XCRemoteSwiftPackageReference "aptabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aptabase/aptabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F60CB512F4E8500006FA1B7 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F60CB502F4E8500006FA1B7 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+		5F60CB612F4E8700006FA1B7 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F60CB652F4E8700006FA1B7 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		5F60CB632F4E8700006FA1B7 /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F60CB662F4E8700006FA1B7 /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+		5F60CB712F4E8900006FA1B7 /* Aptabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F60CB702F4E8900006FA1B7 /* XCRemoteSwiftPackageReference "aptabase-swift" */;
+			productName = Aptabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5F60CB182F4E83E8006FA1B7 /* Project object */;
+}
